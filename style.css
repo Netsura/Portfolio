@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .5s;
+}
+a{
+    color: black
+}
+img{
+    width: 80%;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+}
+.left{
+    width: 30%;
+    background-color: #b4b4b4;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.username p {
+    font-size: 18px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.left ul li {
+    list-style: none;
+    font-size: 22px;
+    padding: 15px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .5s;
+}
+.left ul li:hover a{
+    color: #333;
+    text-decoration: underline;
+}
+
+.right{
+    width: 80%;
+    position: relative;
+
+}
+.background-img{
+    width: 100%;
+}
+
+.proffesion{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: rgb(34, 34, 34);
+    font-weight: 900;
+}
+
+.proffesion-exp{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.home-about{
+    position: absolute;
+    left: 8%;
+    bottom: 50%;
+    
+}
+
+.btn{
+    display: inline-block;
+    list-style: none;
+    background-color: #3e3d3d;
+    transition: .5s;
+    padding: 10px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+
+.btn a {
+    color: rgb(189, 188, 188);
+    transition: .5s;
+}
+.btn:hover a{
+    color: rgb(34, 34, 34);
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: #777676;
+    padding: 13px 8px;
+}
+
+
+/* Below This Line Css About html */
+
+.container{
+    max-width: 1140px;
+    background-color: #b4b4b4;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.about-me p {
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-me span{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-me a {
+    color: #252525;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 10px 5px;
+    background-color: #525252;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 900px;
+}
+
+.about-me a:hover{
+    color: #b2b2b2;
+    background-color: #363636;
+}
+
+/* Below This Line Css Contact Html */
+
+
+.icons{
+    padding: 90px;
+    display: flex;
+    gap: 25px;
+    position: relative;
+}
+
+.icon{
+
+}
+
+.icon a svg{
+    height: 100px;
+    width: 100%;
+    transition: .4s;
+}
+
+.icon a svg:hover{
+    color: #3f3f3f;
+}
+
+.back-to{
+    margin-top: 25px;
+    padding: 10px 5px;
+    background-color: #000000;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: #ebebeb;
+}
+
+.back-to:hover{
+
+    background-color: #ebebeb;
+    color: #000000;
+}
+
